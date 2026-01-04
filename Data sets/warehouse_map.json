@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "generated_at": "2026-01-04T22:53:49.551029",
+    "total_slots": 5935,
+    "spine_x": 0.0,
+    "pack_main": {
+      "x": 0.0,
+      "y": 0.0
+    }
+  },
+  "aisles": {
+    "1": {
+      "id": "1",
+      "bins": 90,
+      "levels": 7,
+      "zone": "TOP"
+    },
+    "2": {
+      "id": "2",
+      "bins": 39,
+      "levels": 7,
+      "zone": "LEFT"
+    },
+    "3": {
+      "id": "3",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "4": {
+      "id": "4",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "5": {
+      "id": "5",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "6": {
+      "id": "6",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "7": {
+      "id": "7",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "8": {
+      "id": "8",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "9": {
+      "id": "9",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "10": {
+      "id": "10",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "11": {
+      "id": "11",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "12": {
+      "id": "12",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "13": {
+      "id": "13",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "14": {
+      "id": "14",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "15": {
+      "id": "15",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "16": {
+      "id": "16",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "17": {
+      "id": "17",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "18": {
+      "id": "18",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "19": {
+      "id": "19",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "20": {
+      "id": "20",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "21": {
+      "id": "21",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "22": {
+      "id": "22",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "23": {
+      "id": "23",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "24": {
+      "id": "24",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "25": {
+      "id": "25",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "26": {
+      "id": "26",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "27": {
+      "id": "27",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "28": {
+      "id": "28",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "29": {
+      "id": "29",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "30": {
+      "id": "30",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "31": {
+      "id": "31",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "32": {
+      "id": "32",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "33": {
+      "id": "33",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "34": {
+      "id": "34",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "35": {
+      "id": "35",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "36": {
+      "id": "36",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "37": {
+      "id": "37",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "38": {
+      "id": "38",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    },
+    "39": {
+      "id": "39",
+      "bins": 20,
+      "levels": 7,
+      "zone": "MAIN"
+    }
+  }
+}

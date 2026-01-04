@@ -1,0 +1,28 @@
+# --- System Files (ขยะจากระบบ) ---
+.DS_Store
+Thumbs.db
+
+# --- Python (Backend) ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# --- Node.js (Frontend) ---
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Data Files (ไฟล์ข้อมูลขนาดใหญ่) ---
+Data sets/*.csv
+*.csv
+*.xlsx
+*.log
+
+# หมายเหตุ: เราเว้น warehouse_map.json ไว้ให้ขึ้น GitHub ได้
+!Data sets/warehouse_map.json

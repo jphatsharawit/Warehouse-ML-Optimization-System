@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+numpy
+pandas
+scikit-learn
+pydantic
+python-dotenv
+python-multipart
+aiofiles
+watchfiles

@@ -1,0 +1,63 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* base styles */
+@layer base {
+  :root { color-scheme: dark; }
+
+  html, body, #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-zinc-950 text-zinc-100;
+  }
+}
+
+/* component classes */
+@layer components {
+  .page {
+    @apply min-h-screen bg-gradient-to-b from-zinc-950 via-zinc-900 to-zinc-950 text-zinc-100;
+  }
+
+  .card {
+    @apply rounded-2xl border border-zinc-800 bg-zinc-900/60 p-4;
+  }
+
+  .input {
+    @apply w-full px-3 py-2 rounded-xl bg-zinc-900 border border-zinc-700 focus:ring-2 focus:ring-indigo-500;
+  }
+
+  .btn {
+    @apply inline-flex items-center gap-2 px-4 py-2 rounded-2xl shadow bg-zinc-800 hover:bg-zinc-700 disabled:opacity-60;
+  }
+
+  .btn-primary {
+    @apply bg-indigo-600 hover:bg-indigo-500 text-white;
+  }
+
+  .badge {
+    @apply px-2 py-0.5 rounded-lg text-xs font-medium bg-zinc-800/70;
+  }
+
+  .badge-ok {
+    @apply bg-emerald-600/90 text-white;
+  }
+
+  .badge-error {
+    @apply bg-red-600/90 text-white;
+  }
+
+  .table {
+    @apply overflow-hidden rounded-2xl border border-zinc-800;
+  }
+
+  .thead {
+    @apply bg-zinc-900/70 text-zinc-300;
+  }
+
+  .tr-hover {
+    @apply hover:bg-zinc-900/40;
+  }
+}
