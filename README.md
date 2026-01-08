@@ -18,19 +18,32 @@ The repository features a self-implemented hybrid engine that combines **Gravity
 
 ## Key Features
 
-### 1. Hybrid Optimization Engine
-Calculates optimal slot assignments for each SKU by analyzing order frequency (ABC Analysis) and physical distance from the packing station. The algorithm balances picking velocity with storage efficiency.
+### 1. Geometry & Distance Calculation
+- **Physical Mapping:** Converts logical addresses (Aisle-Level-Bin) into physical coordinates (Meters).
+- **Distance Logic:** Calculates walking distance from the Packing Station using **Manhattan Distance** (grid-based walking) and Euclidean logic.
+- **Dynamic Config:** Supports adjustable aisle width, bin width, and level penalties.
 
-### 2. 3D Warehouse Mapping
+### 2. Intelligent Optimization Logic
+- **Frequency-Based Ranking:** Prioritizes high-velocity SKUs (Fast Movers) to be placed closer to the packing area.
+- **Market Basket Analysis (Co-Ordering):** Identifies items frequently bought together and groups them in the same aisle to reduce travel time between picks.
+- **Machine Learning Scoring:**
+  - Uses `K-Means Clustering` to categorize parts based on order volume and weight.
+
+### 3. Slot Allocation Algorithms
+- **Spiral Search Strategy:** Searches for empty slots spiraling outward from an ideal "Anchor Point" to ensure the tightest possible grouping.
+- **Linear Sweep:** A fallback mechanism that scans aisles sequentially if the spiral search is exhausted.
+- **Capacity Management:** Automatically calculates how many units fit in a bin based on item tier (Small, Medium, Large, Long).
+
+### 4. 3D Warehouse Mapping
 Supports complex warehouse layouts, including defined Aisles, Vertical Levels, and Bins. The system dynamically maps grid coordinates to physical locations for precise distance calculation.
 
-### 3. Path Simulation
+### 5. Path Simulation
 Implements a traversal picking strategy simulation to quantify efficiency gains. The system calculates and compares total travel distance between the pre-optimization and post-optimization states.
 
-### 4. Automated Data Sanitization
+### 6. Automated Data Sanitization
 Features a robust data processing pipeline that automatically detects and resolves common dataset anomalies, such as missing values, infinite values, and schema inconsistencies, ensuring system stability during execution.
 
-### 5. Automated Environment Setup
+### 7. Automated Environment Setup
 Includes a Windows Batch Script (`clean_start(Port .8000).bat`) for automated environment configuration, dependency installation, and server initialization.
 
 ---
